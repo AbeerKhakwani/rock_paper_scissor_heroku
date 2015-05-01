@@ -1,0 +1,48 @@
+body {
+	    background: url(http://www.hdwallpapersn.com/wp-content/uploads/2015/04/nature-background-images2.jpg) no-repeat center center fixed;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	}
+	h1 {
+	    color: white;
+	}
+	a {
+	    margin: 0 auto;
+	    display: block;
+	    position: relative;
+	    text-decoration: none;
+	    font-size: 10px;
+	}
+	a:hover {
+	    text-decoration: none;
+	}
+	body {
+	    background: url(http://psd.fanextra.com/wp-content/uploads/2011/02/shoelighting4b.jpg) no-repeat center center fixed;
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	    background-size: cover;
+	}
+	h3  {
+	    color: white;
+	}
+	p {
+	color: white;	
+	}
+	a {
+	    margin: 0 auto;
+	    display: block;
+	    position: relative;
+	    text-decoration: none;
+	    font-size: 10px;
+	}
+	a:hover {
+	    text-decoration: none;
+	}
+	.rpg{
+
+		background:rgba(255,255,255, 0.0);
+	}
+	

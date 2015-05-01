@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
-        <title>Anagram Tester!</title>
-    </head>
-    <body>
-        <div class='container'>
-            <h1>Play Rock Paper Scisor</h1>
-            <ol>
 
-            </ol>
-            <div class='row'>
-                <form action='singleplay' method='post'>
-                    <div class='form-group'>
-                        <label for='input1'>Player 1</label>
-                        <input id='input1' name='input1' class='form-control' type='text'>
-                    </div>
+<head>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='/../css/styles.css'>
+  <title></title>
+</head>
 
-                    <!-- $person_move1= $_POST['input1'];
-                    $person_move2= $_POST['input2'];
-                    $GameResult = $new_Game->PlayGame($person_move1,$person_move2); -->
+<body>
+  <div class='container'>
+    <center>
+      <h1>Which one do you choose?</h1>
+      <ol>
 
-                    <button type='submit' class='btn-success'>Submit</button>
-                </form>
-            </div>
-        </div>
-    </body>
+      </ol>
+      <div class='row'>
+
+        <form action='singleplay' method='post'>
+
+          <button type="submit" class="btn rpg" name="input1" value="paper"><img 
+          src="/images/paper-md.png" width="100" height="100" alt="paper">
+          </button>
+          <button type="submit" class="btn rpg" name="input1" value="rock"><img src="/images/rock.png" width="100" height="100" alt="rock">
+          </button>
+          <button type="submit" class="btn rpg" name="input1" value="scissors"><img src="/images/scissor.png" width="100" height="100" alt="scissor">
+          </button>
+        </form>
+
+      </div>
+    </center>
+  </div>
+</body>
+
 </html>

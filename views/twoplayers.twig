@@ -2,23 +2,31 @@
 <html>
     <head>
         <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+          <link rel='stylesheet' href='/../css/styles.css'>
+
         <title>Rock Paper Scrissors Game!</title>
     </head>
     <body>
         <div class='container'>
-            <h1>Rock Paper Scrissors Game!</h1>
-            <ol>
+            
+           
+        <div class='col-md-12'>
+        <center>
+        <h1>Rock Paper Scrissors Game!</h1>
+        <form action='/player2' method='post'>
 
-            </ol>
-            <div class='row'>
-                <form action='player2' method='post'>
-                    <div class='form-group'>
-                        <label for='input1'>Player 1</label>
-                        <input id='input1' name='input1' class='form-control' type='text'>
-                    </div>
+          <button type="submit" class="btn rpg" name="input1" value="paper"><img 
+          src="/images/paper-md.png" width="100" height="100" alt="paper">
+          </button>
+          <button type="submit" class="btn rpg" name="input1" value="rock"><img src="/images/rock.png" width="100" height="100" alt="rock">
+          </button>
+          <button type="submit" class="btn rpg" name="input1" value="scissors"><img src="/images/scissor.png" width="100" height="100" alt="scissor">
+          </button>
+          </center>
+        </form>
 
-                    <button type='submit' class='btn-success'>Submit</button>
-                </form>
+          
+               
             </div>
         </div>
     </body>

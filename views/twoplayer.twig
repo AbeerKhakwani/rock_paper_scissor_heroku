@@ -1,27 +1,42 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
-        <title>Anagram Tester!</title>
-    </head>
-    <body>
-        <div class='container'>
-            <h1>Who Won?</h1>
 
-                <div class='row'>
+<head>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='/../css/styles.css'>
+  <title>Anagram Tester!</title>
+</head>
 
-                    <Li>First Player Chose</li>
-                        {{ player1 }}
-                        <li> </li>
-                    <Li>Second Player Chose</li>
-                            {{ player2 }}
-                    <li>Who Won..........</li>
-                    {{ result }}
+<body>
+  <div class='container'>
+    <h1>Who Won?</h1>
 
+    <div class='row'>
+      <div class="col-md-6">
+        <center>
+          <p>First Player Chose</p>
+          <p>{{ player1 }}</p>
+          <img class="thumbnail" src="{{ player1image }} " height="80" width="80">
+          <p> </p>
+        </center>
+      </div>
+      <div class="col-md-6">
+        <center>
+          <p>Second Player Chose</p>
+          <p> {{ player2 }}</p>
+          <img class="thumbnail" src="{{ player2image }} " height="80" width="80">
+        </center>
+      </div>
+      <div class="col-md-12">
+        <center>
+          <p>Who Won..........</p>
+          <p>{{ result }}</p>
+        </center>
+      </div>
 
+    </div>
+  </div>
 
-            </div>
-            </div>
-        </div>
-    </body>
+</body>
+
 </html>

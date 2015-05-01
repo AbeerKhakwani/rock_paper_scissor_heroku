@@ -2,27 +2,40 @@
 <html>
     <head>
         <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
-        <title>Anagram Tester!</title>
+        <link href="../css/styles.css" rel="stylesheet" type="text/css">
+        <title>Rock Paper Scissor!</title>
     </head>
     <body>
         <div class='container'>
-            <h1>Who Won?</h1>
+            <center><h1>Who Won?</h1></center>
             <ol>
-                <div class='row'>
+            <div class='row'>
 
-                    <Li>Computor Said</li>
-                        {{ computer }}
-                        <Li>You Said</li>
-                            {{ you }}
+                <div class="col-md-6"><center>
+                    <h3>Computor Move</h3>
+                     <img class="thumbnail" src="{{ imageComputor }} " height="80" width="80">
+                        <h3>{{ computer }}</h3>
+                        </center>
+                </div>
+                <div class="col-md-6">
+                <center>
+                        <h3>Your Move</h3>
+                        <img class="thumbnail" src="{{ personMove }} " height="80" width="80">
+                        <h3>{{ you }}</h3>
+                       
+                </center>
+                </div>
+                <div class="row">
+                    <div class="col-md-12"> 
+                    <center>  
+                    <h3>Who Won..........</h3>
+                    <h3> {{ result }}</h3>
+                    </center>
+                    </div>
+                </div>
 
-
-                        <li>Who Won..........</li>
-                    {{ result }}
-
-
-
-            </div>
-            </div>
+            
+        </div>
         </div>
     </body>
 </html>
