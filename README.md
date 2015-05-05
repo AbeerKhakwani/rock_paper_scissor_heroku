@@ -1,13 +1,8 @@
-This is a simple folder containing the files and folders to deploy a silex and twig app to heroku.
+Dveloper:
 
-Just add your personnal view, app, src , css folders to this folder install composer and then push it up to a  github repo.
+Abeer Khakwani
+Discription:
 
- In your heroku dashboard make a new app then click on the name of that app.
+This is a simple rock paper scissor game that can be played with the computor or another player. The app is on heroku and can be played by clicking on the link: https://rock-paper-abeer-scissor.herokuapp.com/
 
- Click the deploy button and then click on the github tab.
-
- Enter the name of the repo you pushed your app up to and connect to that repo.
-
- Click on the deploy branch button at the bottom of the page. 
-
-
+This app was made using silex,twig,php 
